@@ -1,0 +1,15 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+
+# Environment files
+.env
+.env.*
+
+# .env.* ensures all env variants (e.g., .env.local, .env.staging) are ignored.

@@ -1,0 +1,1306 @@
+{
+  "config": {
+    "configFile": "C:\\Dropbox\\Automation_Playwright\\playwright.config.ts",
+    "rootDir": "C:/Dropbox/Automation_Playwright/E2E_test",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never",
+          "port": 9333
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Dropbox/Automation_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Dropbox/Automation_Playwright/E2E_test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Dropbox/Automation_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Dropbox/Automation_Playwright/E2E_test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Dropbox/Automation_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Dropbox/Automation_Playwright/E2E_test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "API_test\\api.spec.ts",
+      "file": "API_test/api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login @API @regression",
+          "ok": true,
+          "tags": [
+            "API",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 853,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:37.940Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a956a2ff3216d68da6c0-bbe38c176b4165a3e1b4",
+          "file": "API_test/api.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Login @API @regression",
+          "ok": true,
+          "tags": [
+            "API",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 791,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:37.991Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a956a2ff3216d68da6c0-95ac0ccc1343002a2639",
+          "file": "API_test/api.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Login @API @regression",
+          "ok": true,
+          "tags": [
+            "API",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 585,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:41.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a956a2ff3216d68da6c0-996b093088b51f43bfe2",
+          "file": "API_test/api.spec.ts",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "UI_test\\login-flows.spec.ts",
+      "file": "UI_test/login-flows.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Edge Cases @UI @negative",
+          "file": "UI_test/login-flows.spec.ts",
+          "line": 40,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login with Wrong Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4129,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:37.977Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-8b8ae65c0e62e6573672",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3038,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:42.859Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-420f862c6e9b170f8072",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3679,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:45.930Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-cb02699eaf76a8c48e8b",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username and Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3022,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:49.651Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-a27c528e59d14fe635f7",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with NonExisting User",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 11784,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:52.697Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-bda688797e659a243c28",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Wrong Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 7699,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:38.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-659f6ed92b41119d46c1",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 4132,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:48.318Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-9c2f54297593bc0ab6e6",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3668,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:52.477Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-00917827752e2d78ae73",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username and Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3488,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:56.174Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-b88fd491e7479b553083",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with NonExisting User",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3518,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:59.684Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-bfd095d6c91ba5fc9505",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Wrong Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5740,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:41.818Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-8045db809e2e16302d96",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4786,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:47.762Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-cdad56b9d7fdf6d44e65",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4574,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:52.577Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-f1240927888e76911138",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with Empty Username and Empty Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4391,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:16:57.188Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-58ebeb63bc3a0ca1f0bf",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            },
+            {
+              "title": "Login with NonExisting User",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4806,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:01.604Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-40a51bf5487e84a421f7",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 42,
+              "column": 13
+            }
+          ]
+        },
+        {
+          "title": "Verify @UI @positive",
+          "file": "UI_test/login-flows.spec.ts",
+          "line": 60,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Close login modal using Close button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2161,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:04.505Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-c6fa4ff05754d5de8cab",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 61,
+              "column": 9
+            },
+            {
+              "title": "Close login modal using X button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2250,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:06.692Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-9daa05cf4ed180b2d51d",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 72,
+              "column": 9
+            },
+            {
+              "title": "Close login modal using Close button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2376,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:03.219Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-13d1dd78dc173e24f15c",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 61,
+              "column": 9
+            },
+            {
+              "title": "Close login modal using X button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2223,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:05.613Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-87fe6787af4e06e4bde7",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 72,
+              "column": 9
+            },
+            {
+              "title": "Close login modal using Close button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3516,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:06.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-bf623d0e20dbe186f083",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 61,
+              "column": 9
+            },
+            {
+              "title": "Close login modal using X button",
+              "ok": true,
+              "tags": [
+                "UI",
+                "positive"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3113,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T03:17:09.965Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-1c0f1544fe02d12ef7e1",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 72,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "UI_test\\search-product-and-add-to-cart.spec.ts",
+      "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Search product and add to Cart @UI @regression @smoke @positive",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "smoke",
+            "positive"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 10410,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:38.010Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-86e64174a4eb43abbdaf",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "sanity",
+            "smoke",
+            "negative"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6604,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Product \"NonExistingProduct\" not found.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:49.111Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-7004d185eb185bd2456e",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Search product and add to Cart @UI @regression @smoke @positive",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "smoke",
+            "positive"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 31649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:38.012Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-51cfe8fe6cfa780d6a8f",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "sanity",
+            "smoke",
+            "negative"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 6875,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Product \"NonExistingProduct\" not found.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:17:11.161Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-23b031c1ee5fdfab023a",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Search product and add to Cart @UI @regression @smoke @positive",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "smoke",
+            "positive"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 19411,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:16:42.520Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-608a027c65b039c43e20",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
+          "ok": true,
+          "tags": [
+            "UI",
+            "regression",
+            "sanity",
+            "smoke",
+            "negative"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 15772,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Product \"NonExistingProduct\" not found.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-24T03:17:02.054Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15b2a07f2f9995183ddb-549b49b280ea2c847a9d",
+          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+          "line": 28,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-24T03:16:36.520Z",
+    "duration": 42300.834,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
