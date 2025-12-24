@@ -40,7 +40,7 @@ npx playwright install --with-deps
 ### 3. Run all tests
 npx playwright test
 
-You can run by tag also (some tags available: UI, API, positive, negative, regression, smoke)
+You can run by tag also (some tags available: UI, API, positive, negative, regression, smoke):  
 npx playwright test --grep "@smoke"
 
 ### 4. View HTML report
