@@ -8,25 +8,30 @@ The scope is:
 ---
 **Framework Structure and Rationale:**
 ```
+  ├── .circleci/              # CircleCI configuration for CI/CD pipelines
   ├── E2E_test/               # test files (*.spec.ts) for UI, API, and Performance
   ├── fixtures/               # custom fixtures (e.g. log in, log out)
   ├── pages/                  # Page Object Models (encapsulate UI interactions)
-  ├── utils/                  # helpers (credentials, env config)
   ├── playwright-reports/     # test reports (HTML, JSON, summary)
-  ├── .circleci/              # CircleCI configuration for CI/CD pipelines
+  ├── test_data/     		  # contains some test data for TDD purposes
+  ├── utils/                  # helpers (credentials, env config)
   ├── playwright.config.ts    # Playwright configuration (env, base URL, retries, reporters, browsers)
 ```
 
 **Rationale:**
+- **.circleci/**: Defines CircleCI jobs and workflows, also using the environment variables and parameters, to server for CI CD purposes.
 - **E2E_test/**: Contains all test files, organized by type (UI, API, Performance). Some Tests in UI folder are also reflected in the Excel file for the list of Test Cases - for easy reference
 - **fixtures/**: Provides reusable context such as login, logout flows. This is to reduce duplication and make the tests easier to maintain.
 - **pages/**: Implements the Page Object Model pattern. Each file is served for a page or feature, making it easier to read and maintain later.
-- **utils/**: Contains helpers like credentials.ts to configure the environment and get credentials for testing.
 - **playwright-reports/**: Save the reports in HTML, JSON, summaries; mainly used for debug or view results after testing.
-- **.circleci/**: Defines CircleCI jobs and workflows, also using the environment variables and parameters, to server for CI CD purposes.
+- **test_data/**: Contain some test data for TDD, for example: some edge cases for logging in user, some data used for searching and adding to cart.
+- **utils/**: Contains helpers like credentials.ts to configure the environment and get credentials for testing.
 - **playwright.config.ts**: Contains configurations of Playwright like environment, base URL, retries, reporters, browser settings.
 
 ---
+
+### Prerequisites:
+- **Node.js** is installed (please use the latest version if possible)
 
 **Steps to Execute Demo Scripts**
 

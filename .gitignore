@@ -9,7 +9,7 @@ node_modules/
 
 
 # Environment files
-# .env
-# .env.*
+.env
+.env.*
 
 # .env.* ensures all env variants (e.g., .env.local, .env.staging) are ignored.
