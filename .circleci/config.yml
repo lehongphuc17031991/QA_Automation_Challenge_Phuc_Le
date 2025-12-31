@@ -35,32 +35,8 @@ jobs:
       - checkout
 
       - run:
-          name: Debug parameters
-          command: |
-            echo "Pipeline parameter type_testing = << pipeline.parameters.type_testing >>"
-            echo "Job parameter type_testing = << parameters.type_testing >>"
-
-      # Build branch link
-      - run:
-          name: Build branch link
-          command: |
-            echo "BRANCH_URL=https://github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/tree/${CIRCLE_BRANCH}" >> $BASH_ENV
-
-      # Restore npm cache
-      - restore_cache:
-          keys:
-            - v1-npm-deps-{{ checksum "package-lock.json" }}
-            - v1-npm-deps-
-
-      - run:
           name: Install dependencies
           command: npm ci
-      
-      - save_cache:
-          paths:
-            - ~/.npm
-            - ~/.cache
-          key: v1-npm-deps-{{ checksum "package-lock.json" }}
 
       - run:
           name: Install Playwright Browsers
@@ -69,28 +45,16 @@ jobs:
       # Run tests using reporters defined in playwright.config.js
       - run:
           name: Run Playwright tests
-          shell: bash
           command: |
             npx cross-env TEST_ENV=<<parameters.test_env>> npx playwright test --grep "<<parameters.type_testing>>"
             EXIT_CODE=$?
-            echo "TEST_EXIT_CODE=$EXIT_CODE" >> $BASH_ENV
             exit 0
-
-      # Parse JSON → produce PASSED/FAILED/SKIPPED/TOTAL of TCs
-      - run:
-          name: Parse Playwright JSON and export counts
-          command: |
-            node ci/tc-execution-summary.js
 
       # Make env vars available to ALL later steps
       - run:
           name: Export summary env globally
           command: |
             cat test-summary.env >> $BASH_ENV
-
-      - run:
-          name: Remove trace folder (optional)
-          command: rm -rf playwright-report/trace
 
       - store_artifacts:
           path: playwright-report
@@ -110,28 +74,6 @@ jobs:
       - slack/notify:
           event: always
           channel: C0A3G0YNS9Y
-          template: custom
-          custom: |
-            {
-              "text": "Playwright Test Results",
-              "blocks": [
-                { "type": "section", "text": { "type": "mrkdwn", "text": "*Playwright Test Summary*" } },
-
-                { "type": "section", "text": { "type": "mrkdwn", "text": "*Branch:* <${BRANCH_URL}|${CIRCLE_BRANCH}>" } },
-                
-                { "type": "section", "text": { "type": "mrkdwn", "text": "✅ *Passed:* ${PASSED}" } },
-                { "type": "section", "text": { "type": "mrkdwn", "text": "❌ *Failed:* ${FAILED}" } },
-                { "type": "section", "text": { "type": "mrkdwn", "text": "⚠️ *Skipped:* ${SKIPPED}" } },
-                { "type": "section", "text": { "type": "mrkdwn", "text": " " } },
-
-                { "type": "section", "text": { "type": "mrkdwn", "text": "\n ******* TOTAL: ${TOTAL} ******* \n" } },
-
-                { "type": "section", "text": { "type": "mrkdwn", "text": "*CircleCI Job:* <${CIRCLE_BUILD_URL}|Open Job>" } },
-                { "type": "section", "text": { "type": "mrkdwn", "text": "*Playwright Report:* <${REPORT_URL}|Open HTML Report>" } },
-
-                { "type": "section", "text": { "type": "mrkdwn", "text": " -------------- END -------------- " } }
-              ]
-            }
 
 
 # Orchestrate jobs using workflows

@@ -20,6 +20,7 @@ const test = base.extend<{ authPage_demoblaze: Page }>({
         // Open login modal
         await login.openLoginModal();
 
+        // ----------------------------- TC # 1 -----------------------------
         // Perform login
         await login.login(AdminUsername, AdminPassword);
 

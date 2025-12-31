@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 6
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -51,7 +51,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -67,7 +67,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -83,7 +83,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -99,7 +99,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.56.1",
-    "workers": 6,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
@@ -128,7 +128,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 981,
+                  "duration": 602,
                   "errors": [],
                   "stdout": [
                     {
@@ -137,7 +137,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-24T04:48:22.158Z",
+                  "startTime": "2025-12-31T10:58:59.813Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -166,10 +166,10 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1103,
+                  "duration": 473,
                   "errors": [],
                   "stdout": [
                     {
@@ -178,7 +178,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-24T04:48:22.177Z",
+                  "startTime": "2025-12-31T11:00:24.769Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -207,10 +207,10 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 6,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 567,
+                  "duration": 457,
                   "errors": [],
                   "stdout": [
                     {
@@ -219,7 +219,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-24T04:48:27.164Z",
+                  "startTime": "2025-12-31T11:01:54.170Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -235,6 +235,381 @@
       ]
     },
     {
+      "title": "Performance_test\\performance.spec.ts",
+      "file": "Performance_test/performance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Measure page loading time @performance @regression",
+          "ok": true,
+          "tags": [
+            "performance",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3962,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 3821 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T10:59:00.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17337b0e9ddb7b9d65de-939a2091a63d23a166ad",
+          "file": "Performance_test/performance.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Measure page loading time @performance @regression",
+          "ok": true,
+          "tags": [
+            "performance",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2108,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 1288 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:00:25.268Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17337b0e9ddb7b9d65de-60c091700f516562a3f7",
+          "file": "Performance_test/performance.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Measure page loading time @performance @regression",
+          "ok": true,
+          "tags": [
+            "performance",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1616,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 1378 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:01:54.658Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17337b0e9ddb7b9d65de-e1c60dd0b163380c494e",
+          "file": "Performance_test/performance.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "UI_test\\check-cart-without-adding-product.spec.ts",
+      "file": "UI_test/check-cart-without-adding-product.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7682,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T10:59:04.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0992b05f47719e730854-f090df0dd8bea4a441f9",
+          "file": "UI_test/check-cart-without-adding-product.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:00:27.920Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0992b05f47719e730854-ed431d1749a2efa1dcf8",
+          "file": "UI_test/check-cart-without-adding-product.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:01:56.359Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0992b05f47719e730854-02f8954de85e45529b74",
+          "file": "UI_test/check-cart-without-adding-product.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "UI_test\\check-cart-without-logging.spec.ts",
+      "file": "UI_test/check-cart-without-logging.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T10:59:12.252Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1abc92700ad405d12492-7f72edb01eefc6a3d18e",
+          "file": "UI_test/check-cart-without-logging.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4764,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:00:35.365Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1abc92700ad405d12492-bfc2a58852245dfe4598",
+          "file": "UI_test/check-cart-without-logging.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Check cart without adding any product @UI @positive @regression",
+          "ok": true,
+          "tags": [
+            "UI",
+            "positive",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5065,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T11:02:05.803Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1abc92700ad405d12492-0d71bcbc5498842e73e5",
+          "file": "UI_test/check-cart-without-logging.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "UI_test\\login-flows.spec.ts",
       "file": "UI_test/login-flows.spec.ts",
       "column": 0,
@@ -244,7 +619,7 @@
         {
           "title": "Login Edge Cases @UI @negative",
           "file": "UI_test/login-flows.spec.ts",
-          "line": 40,
+          "line": 27,
           "column": 6,
           "specs": [
             {
@@ -263,15 +638,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4503,
+                      "duration": 1892,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:22.209Z",
+                      "startTime": "2025-12-31T10:59:16.728Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -281,7 +656,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-8b8ae65c0e62e6573672",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -300,15 +675,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3940,
+                      "duration": 1902,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:28.055Z",
+                      "startTime": "2025-12-31T10:59:18.637Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -318,7 +693,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-420f862c6e9b170f8072",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -337,15 +712,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3483,
+                      "duration": 1879,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:32.039Z",
+                      "startTime": "2025-12-31T10:59:20.553Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -355,7 +730,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-cb02699eaf76a8c48e8b",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -374,15 +749,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3417,
+                      "duration": 1839,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:35.564Z",
+                      "startTime": "2025-12-31T10:59:22.443Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -392,7 +767,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-a27c528e59d14fe635f7",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -411,15 +786,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3134,
+                      "duration": 1669,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:39.006Z",
+                      "startTime": "2025-12-31T10:59:24.293Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -429,7 +804,155 @@
               ],
               "id": "e4ba76f8e5d2080b779a-bda688797e659a243c28",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1587,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T10:59:25.974Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-13b4d79d9677703ec39d",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1590,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T10:59:27.573Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-b60762a2c0f1a6948d73",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1859,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T10:59:29.174Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-5a867489c9ba34d80ba7",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1699,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T10:59:31.045Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-5ee5232c7cdadd8b72d9",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
               "column": 13
             },
             {
@@ -448,15 +971,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 26203,
+                      "duration": 2097,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:22.194Z",
+                      "startTime": "2025-12-31T11:00:40.157Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -466,7 +989,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-659f6ed92b41119d46c1",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -485,15 +1008,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3172,
+                      "duration": 2200,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:50.395Z",
+                      "startTime": "2025-12-31T11:00:42.269Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -503,7 +1026,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-9c2f54297593bc0ab6e6",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -522,15 +1045,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3430,
+                      "duration": 1955,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:53.609Z",
+                      "startTime": "2025-12-31T11:00:44.487Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -540,7 +1063,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-00917827752e2d78ae73",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -559,15 +1082,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3810,
+                      "duration": 1900,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:57.078Z",
+                      "startTime": "2025-12-31T11:00:46.456Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -577,7 +1100,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-b88fd491e7479b553083",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -596,15 +1119,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3452,
+                      "duration": 1972,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:49:00.928Z",
+                      "startTime": "2025-12-31T11:00:48.371Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -614,7 +1137,155 @@
               ],
               "id": "e4ba76f8e5d2080b779a-bfd095d6c91ba5fc9505",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2019,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:00:50.358Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-66bf8f03d3dbd298c031",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2250,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:00:52.392Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-b609cfd0fc88ee92885a",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1901,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:00:54.661Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-1dad7eab6f3a14082f2a",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2064,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:00:56.576Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-64a19f9332989ec44116",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
               "column": 13
             },
             {
@@ -633,15 +1304,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6854,
+                      "duration": 3230,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:27.510Z",
+                      "startTime": "2025-12-31T11:02:10.893Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -651,7 +1322,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-8045db809e2e16302d96",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -670,15 +1341,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5195,
+                      "duration": 3233,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:34.687Z",
+                      "startTime": "2025-12-31T11:02:14.141Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -688,7 +1359,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-cdad56b9d7fdf6d44e65",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -707,15 +1378,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4452,
+                      "duration": 3112,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:39.954Z",
+                      "startTime": "2025-12-31T11:02:17.390Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -725,7 +1396,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-f1240927888e76911138",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -744,15 +1415,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4804,
+                      "duration": 3860,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:44.434Z",
+                      "startTime": "2025-12-31T11:02:20.517Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -762,7 +1433,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-58ebeb63bc3a0ca1f0bf",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
               "column": 13
             },
             {
@@ -781,15 +1452,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4749,
+                      "duration": 3245,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:49.260Z",
+                      "startTime": "2025-12-31T11:02:24.392Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -799,7 +1470,155 @@
               ],
               "id": "e4ba76f8e5d2080b779a-40a51bf5487e84a421f7",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 42,
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2967,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:02:27.653Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-ffae2768a78635955ff2",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Case-sensitive Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3084,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:02:30.637Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-3f0418a5685dc2423e1a",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Username",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3885,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:02:33.735Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-ac88ce9ead911787a81d",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
+              "column": 13
+            },
+            {
+              "title": "Login with Extra spaces characters in Password",
+              "ok": true,
+              "tags": [
+                "UI",
+                "negative"
+              ],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3763,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T11:02:37.634Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e4ba76f8e5d2080b779a-065d5b8271de46516154",
+              "file": "UI_test/login-flows.spec.ts",
+              "line": 29,
               "column": 13
             }
           ]
@@ -807,7 +1626,7 @@
         {
           "title": "Verify @UI @positive",
           "file": "UI_test/login-flows.spec.ts",
-          "line": 60,
+          "line": 48,
           "column": 6,
           "specs": [
             {
@@ -826,15 +1645,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2336,
+                      "duration": 2074,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:42.164Z",
+                      "startTime": "2025-12-31T10:59:32.755Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -844,7 +1663,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-c6fa4ff05754d5de8cab",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 61,
+              "line": 49,
               "column": 9
             },
             {
@@ -863,15 +1682,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1910,
+                      "duration": 2036,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:44.541Z",
+                      "startTime": "2025-12-31T10:59:34.840Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -881,7 +1700,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-9daa05cf4ed180b2d51d",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 72,
+              "line": 60,
               "column": 9
             },
             {
@@ -900,15 +1719,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2722,
+                      "duration": 1961,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:49:04.410Z",
+                      "startTime": "2025-12-31T11:00:58.653Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -918,7 +1737,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-13d1dd78dc173e24f15c",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 61,
+              "line": 49,
               "column": 9
             },
             {
@@ -937,15 +1756,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2189,
+                      "duration": 2102,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:49:07.155Z",
+                      "startTime": "2025-12-31T11:01:00.629Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -955,7 +1774,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-87fe6787af4e06e4bde7",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 72,
+              "line": 60,
               "column": 9
             },
             {
@@ -974,15 +1793,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3079,
+                      "duration": 2465,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:54.032Z",
+                      "startTime": "2025-12-31T11:02:41.409Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -992,7 +1811,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-bf623d0e20dbe186f083",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 61,
+              "line": 49,
               "column": 9
             },
             {
@@ -1011,15 +1830,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3808,
+                      "duration": 2485,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-24T04:48:57.147Z",
+                      "startTime": "2025-12-31T11:02:43.888Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1029,7 +1848,7 @@
               ],
               "id": "e4ba76f8e5d2080b779a-1c0f1544fe02d12ef7e1",
               "file": "UI_test/login-flows.spec.ts",
-              "line": 72,
+              "line": 60,
               "column": 9
             }
           ]
@@ -1041,264 +1860,372 @@
       "file": "UI_test/search-product-and-add-to-cart.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
           "title": "Search product and add to Cart @UI @regression @smoke @positive",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "smoke",
-            "positive"
-          ],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 12391,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:22.169Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "15b2a07f2f9995183ddb-86e64174a4eb43abbdaf",
           "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "sanity",
-            "smoke",
-            "negative"
-          ],
-          "tests": [
+          "line": 14,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "Search product name and add to cart",
+              "ok": true,
+              "tags": [
+                "UI",
+                "regression",
+                "smoke",
+                "positive"
+              ],
+              "tests": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 6780,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "text": "Product \"NonExistingProduct\" not found.\n"
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 46693,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 6080
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 3268
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 3485
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 5549
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 3724
+                        }
+                      ],
+                      "startTime": "2025-12-31T10:59:36.894Z",
+                      "annotations": [],
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:35.940Z",
-                  "annotations": [],
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "15b2a07f2f9995183ddb-7004d185eb185bd2456e",
-          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 28,
-          "column": 5
-        },
-        {
-          "title": "Search product and add to Cart @UI @regression @smoke @positive",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "smoke",
-            "positive"
-          ],
-          "tests": [
+              "id": "15b2a07f2f9995183ddb-0506ad47084b13961bdd",
+              "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+              "line": 40,
+              "column": 9
+            },
             {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 5,
-                  "status": "passed",
-                  "duration": 15788,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:22.174Z",
-                  "annotations": [],
-                  "attachments": []
-                }
+              "title": "Search product name and add to cart",
+              "ok": true,
+              "tags": [
+                "UI",
+                "regression",
+                "smoke",
+                "positive"
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "15b2a07f2f9995183ddb-51cfe8fe6cfa780d6a8f",
-          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "sanity",
-            "smoke",
-            "negative"
-          ],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
+              "tests": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 5,
-                  "status": "passed",
-                  "duration": 7602,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
                     {
-                      "text": "Product \"NonExistingProduct\" not found.\n"
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 49528,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 6959
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 3197
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 5744
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 3910
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 4412
+                        }
+                      ],
+                      "startTime": "2025-12-31T11:01:02.755Z",
+                      "annotations": [],
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:41.288Z",
-                  "annotations": [],
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "15b2a07f2f9995183ddb-23b031c1ee5fdfab023a",
-          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 28,
-          "column": 5
-        },
-        {
-          "title": "Search product and add to Cart @UI @regression @smoke @positive",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "smoke",
-            "positive"
-          ],
-          "tests": [
+              "id": "15b2a07f2f9995183ddb-c61efc0cc1555996617f",
+              "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+              "line": 40,
+              "column": 9
+            },
             {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 15493,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:27.861Z",
-                  "annotations": [],
-                  "attachments": []
-                }
+              "title": "Search product name and add to cart",
+              "ok": true,
+              "tags": [
+                "UI",
+                "regression",
+                "smoke",
+                "positive"
               ],
-              "status": "expected"
-            }
-          ],
-          "id": "15b2a07f2f9995183ddb-608a027c65b039c43e20",
-          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "Search invalid product, cannot add to cart @UI @regression @sanity @smoke @negative",
-          "ok": true,
-          "tags": [
-            "UI",
-            "regression",
-            "sanity",
-            "smoke",
-            "negative"
-          ],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
+              "tests": [
                 {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8441,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
                     {
-                      "text": "Product \"NonExistingProduct\" not found.\n"
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 56277,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 7109
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 4659
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 4938
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 5788
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 5723
+                        }
+                      ],
+                      "startTime": "2025-12-31T11:02:46.396Z",
+                      "annotations": [],
+                      "attachments": []
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-24T04:48:43.581Z",
-                  "annotations": [],
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "15b2a07f2f9995183ddb-717ce89a2fa6d4c1f3d4",
+              "file": "UI_test/search-product-and-add-to-cart.spec.ts",
+              "line": 40,
+              "column": 9
             }
-          ],
-          "id": "15b2a07f2f9995183ddb-549b49b280ea2c847a9d",
-          "file": "UI_test/search-product-and-add-to-cart.spec.ts",
-          "line": 28,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-24T04:48:20.351Z",
-    "duration": 49818.198,
-    "expected": 30,
+    "startTime": "2025-12-31T10:58:58.634Z",
+    "duration": 284141.529,
+    "expected": 48,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

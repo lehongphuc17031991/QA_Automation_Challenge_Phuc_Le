@@ -1,0 +1,22 @@
+[
+    {
+        "name": "valid product name Apple",
+        "productName": "Apple"
+    },
+    {
+        "name": "valid product name Nokia",
+        "productName": "Nokia"
+    },
+    {
+        "name": "valid product name Nexus",
+        "productName": "Nexus"
+    },
+    {
+        "name": "valid product name HTC",
+        "productName": "HTC"
+    },
+    {
+        "name": "valid product name Sony",
+        "productName": "Sony"
+    }
+]

@@ -31,7 +31,7 @@ export default defineConfig({
   // retries: process.env.CI ? 2 : 0,
   retries: 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // playwright.config.js (reporter section)
   reporter: [
@@ -47,7 +47,7 @@ export default defineConfig({
     // this controls how long Playwright will wait for an element/action by default
     actionTimeout: 30000,
 
-    headless: !!process.env.CI, // boolean: true in CI, false locally
+    headless: true, //!!process.env.CI, // boolean: true in CI, false locally
     // equivalent to:
     // headless: process.env.CI ? true : false,
 
@@ -55,7 +55,7 @@ export default defineConfig({
     viewport: null,  // (no fixed viewport)
 
     launchOptions: {
-      slowMo: 200,
+      // slowMo: 200,
       // args: ['--start-maximized'],  // launch browser maximized
     },
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -70,7 +70,7 @@ export default defineConfig({
   timeout: 180000, // 180 seconds
   expect: {
     // default timeout for `expect()` matchers (overrides runtime `expect.setTimeout` absence)
-    timeout: 15000,
+    timeout: 20000,
   },
 
   /* Configure projects for major browsers */

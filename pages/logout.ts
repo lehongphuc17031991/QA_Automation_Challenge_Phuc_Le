@@ -6,7 +6,7 @@ export class LogoutPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.logoutButton = page.locator('//*[@id="logout2"]');
+    this.logoutButton = page.locator(`//*[@id="logout2"]`);
   }
 
   async logout(): Promise<void> {

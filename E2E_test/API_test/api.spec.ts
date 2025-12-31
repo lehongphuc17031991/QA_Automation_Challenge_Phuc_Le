@@ -4,7 +4,7 @@ import { credentials } from '../../utils/credentials';
 const AdminUsername: string = credentials.AdminUsername;
 const AdminPassword: string = credentials.AdminPassword;
 
-test('Login @API @regression', async ({ request }) => {
+test(`Login @API @regression`, async ({ request }) => {
     const response = await request.post('https://api.demoblaze.com/login', {
         data: {
             username: AdminUsername,
@@ -12,6 +12,7 @@ test('Login @API @regression', async ({ request }) => {
         }
     });
 
+    // Testing - verify response status
     expect(response.status()).toBe(200);
 
     const body = await response.json();

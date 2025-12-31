@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Wrong Password",
+        "username": "ENV:ADMIN_USERNAME",
+        "password": "123",
+        "expectedResult": "Wrong password"
+    },
+    {
+        "name": "Empty Password",
+        "username": "ENV:ADMIN_USERNAME",
+        "password": "",
+        "expectedResult": "Please fill out Username and Password"
+    },
+    {
+        "name": "Empty Username",
+        "username": "",
+        "password": "ENV:ADMIN_PASSWORD",
+        "expectedResult": "Please fill out Username and Password"
+    },
+    {
+        "name": "Empty Username and Empty Password",
+        "username": "",
+        "password": "",
+        "expectedResult": "Please fill out Username and Password"
+    },
+    {
+        "name": "NonExisting User",
+        "username": "test_demo123@gmail.com",
+        "password": "123456",
+        "expectedResult": "User does not exist"
+    },
+    {
+        "name": "Case-sensitive Username",
+        "username": "Test_Demo123456",
+        "password": "ENV:ADMIN_PASSWORD",
+        "expectedResult": "User does not exist"
+    },
+    {
+        "name": "Case-sensitive Password",
+        "username": "ENV:ADMIN_USERNAME",
+        "password": "Admin123456",
+        "expectedResult": "Wrong password"
+    },
+    {
+        "name": "Extra spaces characters in Username",
+        "username": "  ENV:ADMIN_USERNAME  ",
+        "password": "ENV:ADMIN_PASSWORD",
+        "expectedResult": "User does not exist"
+    },
+    {
+        "name": "Extra spaces characters in Password",
+        "username": "ENV:ADMIN_USERNAME",
+        "password": "  ENV:ADMIN_PASSWORD  ",
+        "expectedResult": "Wrong password"
+    }
+]
