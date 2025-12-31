@@ -50,11 +50,6 @@ jobs:
             EXIT_CODE=$?
             exit 0
 
-      # Make env vars available to ALL later steps
-      - run:
-          name: Export summary env globally
-          command: |
-            cat test-summary.env >> $BASH_ENV
 
       - store_artifacts:
           path: playwright-report
