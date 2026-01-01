@@ -31,7 +31,12 @@ test.describe(`Search product and add to Cart @UI @regression @smoke @positive`,
         // To make cart empty before testing
         let numberOfTotalProducts = await addToCart.numberOfTotalProductAddedToCart();
         if (numberOfTotalProducts !== 0) {
-            await addToCart.clearCart();
+            try {
+                await addToCart.clearCart();
+            } catch (error) {
+                console.log('retry...')
+                await addToCart.clearCart();
+            }
         }
     });
 

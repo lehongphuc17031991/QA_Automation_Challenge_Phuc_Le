@@ -128,7 +128,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 510,
+                  "duration": 491,
                   "errors": [],
                   "stdout": [
                     {
@@ -137,7 +137,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:26:57.435Z",
+                  "startTime": "2026-01-01T01:39:41.893Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -169,7 +169,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 445,
+                  "duration": 514,
                   "errors": [],
                   "stdout": [
                     {
@@ -178,7 +178,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:28:18.275Z",
+                  "startTime": "2026-01-01T01:41:02.998Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -205,8 +205,26 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 414,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-01T01:42:41.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "a956a2ff3216d68da6c0-996b093088b51f43bfe2",
@@ -241,16 +259,16 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1267,
+                  "duration": 1152,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Page loading time: 1149 ms\n"
+                      "text": "Page loading time: 1014 ms\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:26:57.971Z",
+                  "startTime": "2026-01-01T01:39:42.411Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -282,16 +300,16 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1717,
+                  "duration": 1857,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Page loading time: 1042 ms\n"
+                      "text": "Page loading time: 1175 ms\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:28:18.746Z",
+                  "startTime": "2026-01-01T01:41:03.539Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -318,8 +336,26 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1403,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 1262 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-01T01:42:41.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "17337b0e9ddb7b9d65de-e1c60dd0b163380c494e",
@@ -361,12 +397,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1995,
+                      "duration": 2174,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:26:59.339Z",
+                      "startTime": "2026-01-01T01:39:43.664Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -398,12 +434,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1863,
+                      "duration": 1537,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:01.346Z",
+                      "startTime": "2026-01-01T01:39:45.849Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -435,12 +471,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1694,
+                      "duration": 1782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:03.218Z",
+                      "startTime": "2026-01-01T01:39:47.396Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -472,12 +508,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1972,
+                      "duration": 1871,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:04.923Z",
+                      "startTime": "2026-01-01T01:39:49.191Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -509,12 +545,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2054,
+                      "duration": 1771,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:06.905Z",
+                      "startTime": "2026-01-01T01:39:51.072Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -546,12 +582,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1440,
+                      "duration": 1734,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:08.968Z",
+                      "startTime": "2026-01-01T01:39:52.853Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -583,12 +619,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1658,
+                      "duration": 1762,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:10.418Z",
+                      "startTime": "2026-01-01T01:39:54.596Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -620,12 +656,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1808,
+                      "duration": 1758,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:12.086Z",
+                      "startTime": "2026-01-01T01:39:56.367Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -657,12 +693,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1838,
+                      "duration": 1793,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:13.903Z",
+                      "startTime": "2026-01-01T01:39:58.134Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -694,12 +730,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2086,
+                      "duration": 1968,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:20.920Z",
+                      "startTime": "2026-01-01T01:41:05.854Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -731,12 +767,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2117,
+                      "duration": 1977,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:23.023Z",
+                      "startTime": "2026-01-01T01:41:07.833Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -768,12 +804,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2026,
+                      "duration": 1953,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:25.153Z",
+                      "startTime": "2026-01-01T01:41:09.825Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -805,12 +841,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2144,
+                      "duration": 2038,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:27.193Z",
+                      "startTime": "2026-01-01T01:41:11.792Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -842,12 +878,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2126,
+                      "duration": 1969,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:29.351Z",
+                      "startTime": "2026-01-01T01:41:13.842Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -879,12 +915,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1871,
+                      "duration": 1655,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:31.488Z",
+                      "startTime": "2026-01-01T01:41:15.821Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -916,12 +952,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2259,
+                      "duration": 1839,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:33.371Z",
+                      "startTime": "2026-01-01T01:41:17.487Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -953,12 +989,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1859,
+                      "duration": 1751,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:35.643Z",
+                      "startTime": "2026-01-01T01:41:19.339Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -990,12 +1026,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1737,
+                      "duration": 1803,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:37.515Z",
+                      "startTime": "2026-01-01T01:41:21.101Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1022,8 +1058,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3098,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:43.195Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-59bfdb18a2ec96688c5a",
@@ -1045,8 +1095,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4073,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:46.307Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-4eb7d8465db031b8f96a",
@@ -1068,8 +1132,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3083,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:50.394Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-1884a5563a44fea2ff88",
@@ -1091,8 +1169,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3036,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:53.488Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-022930ff073e32edc3c7",
@@ -1114,8 +1206,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3047,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:56.536Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-5df6b4ee8f04c0d1bb06",
@@ -1137,8 +1243,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2974,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:42:59.594Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-bf3e9b7c7ebd2ce9b6e1",
@@ -1160,8 +1280,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3035,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:43:02.578Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-d59c1bf565e4026c860b",
@@ -1183,8 +1317,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3154,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:43:05.625Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-b2e71425ba8d7db430fa",
@@ -1206,8 +1354,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3087,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:43:08.790Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-53a7bb332e39a7ca232a",
@@ -1242,12 +1404,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2309,
+                      "duration": 1824,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:15.753Z",
+                      "startTime": "2026-01-01T01:39:59.936Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1279,12 +1441,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2038,
+                      "duration": 1723,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:27:18.073Z",
+                      "startTime": "2026-01-01T01:40:01.769Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1316,12 +1478,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2244,
+                      "duration": 2453,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:39.264Z",
+                      "startTime": "2026-01-01T01:41:22.916Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1353,12 +1515,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2176,
+                      "duration": 2219,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-01T01:28:41.521Z",
+                      "startTime": "2026-01-01T01:41:25.382Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1385,8 +1547,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2915,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:43:11.889Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-67e9b0d78d8a58a7818a",
@@ -1408,8 +1584,22 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2410,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-01T01:43:14.816Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "36e61abda7e16bf2a1a9-124956ae50fa22403455",
@@ -1455,7 +1645,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 45092,
+                      "duration": 46417,
                       "errors": [],
                       "stdout": [
                         {
@@ -1518,26 +1708,26 @@
                       "steps": [
                         {
                           "title": "Searching and adding product: Apple to cart",
-                          "duration": 6569
+                          "duration": 6495
                         },
                         {
                           "title": "Searching and adding product: Nokia to cart",
-                          "duration": 3293
+                          "duration": 3314
                         },
                         {
                           "title": "Searching and adding product: Nexus to cart",
-                          "duration": 4208
+                          "duration": 4295
                         },
                         {
                           "title": "Searching and adding product: HTC to cart",
-                          "duration": 3602
+                          "duration": 4511
                         },
                         {
                           "title": "Searching and adding product: Sony to cart",
-                          "duration": 4545
+                          "duration": 4336
                         }
                       ],
-                      "startTime": "2026-01-01T01:27:20.127Z",
+                      "startTime": "2026-01-01T01:40:03.509Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1547,7 +1737,7 @@
               ],
               "id": "5326028c26b55a309b3a-7b728aa8d16b58af10f0",
               "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
-              "line": 40,
+              "line": 45,
               "column": 9
             },
             {
@@ -1571,7 +1761,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 51859,
+                      "duration": 50255,
                       "errors": [],
                       "stdout": [
                         {
@@ -1634,26 +1824,26 @@
                       "steps": [
                         {
                           "title": "Searching and adding product: Apple to cart",
-                          "duration": 6558
+                          "duration": 7005
                         },
                         {
                           "title": "Searching and adding product: Nokia to cart",
-                          "duration": 4636
+                          "duration": 4133
                         },
                         {
                           "title": "Searching and adding product: Nexus to cart",
-                          "duration": 5478
+                          "duration": 4689
                         },
                         {
                           "title": "Searching and adding product: HTC to cart",
-                          "duration": 3668
+                          "duration": 4358
                         },
                         {
                           "title": "Searching and adding product: Sony to cart",
-                          "duration": 5426
+                          "duration": 5170
                         }
                       ],
-                      "startTime": "2026-01-01T01:28:43.719Z",
+                      "startTime": "2026-01-01T01:41:27.628Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1663,7 +1853,7 @@
               ],
               "id": "5326028c26b55a309b3a-91ca749a5c3e9663b9b2",
               "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
-              "line": 40,
+              "line": 45,
               "column": 9
             },
             {
@@ -1682,13 +1872,104 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 54642,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 6986
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 4596
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 5882
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 4071
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 5354
+                        }
+                      ],
+                      "startTime": "2026-01-01T01:43:17.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "5326028c26b55a309b3a-c2622ce5effaf64b71da",
               "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
-              "line": 40,
+              "line": 45,
               "column": 9
             }
           ]
@@ -1721,12 +2002,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4488,
+                  "duration": 4364,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:28:05.252Z",
+                  "startTime": "2026-01-01T01:40:49.940Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1741,7 +2022,7 @@
         },
         {
           "title": "Check cart without adding any product @UI @positive @regression",
-          "ok": true,
+          "ok": false,
           "tags": [
             "UI",
             "positive",
@@ -1759,10 +2040,10 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 3725,
+                  "duration": 3520,
                   "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m7\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m7\u001b[39m\n    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35",
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35",
                     "location": {
                       "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
                       "column": 35,
@@ -1777,13 +2058,13 @@
                         "column": 35,
                         "line": 10
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m7\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35\u001b[22m"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:29:35.585Z",
+                  "startTime": "2026-01-01T01:42:17.898Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1801,13 +2082,32 @@
                 {
                   "workerIndex": 2,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5717,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 4502,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m4\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m4\u001b[39m\n    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35",
+                    "location": {
+                      "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                      "column": 35,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                        "column": 35,
+                        "line": 10
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m4\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2026-01-01T01:29:40.807Z",
+                  "startTime": "2026-01-01T01:42:22.945Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1816,14 +2116,24 @@
                       "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox-retry1\\video.webm"
                     },
                     {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox-retry1\\error-context.md"
+                    },
+                    {
                       "name": "trace",
                       "contentType": "application/zip",
                       "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox-retry1\\trace.zip"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                    "column": 35,
+                    "line": 10
+                  }
                 }
               ],
-              "status": "flaky"
+              "status": "unexpected"
             }
           ],
           "id": "dd12b63ed1de57254d27-104b11e6f67780806315",
@@ -1846,8 +2156,22 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5022,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-01T01:44:11.901Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "dd12b63ed1de57254d27-ba19294f4a9fe7e28a0a",
@@ -1883,12 +2207,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7528,
+                  "duration": 7672,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:28:09.753Z",
+                  "startTime": "2026-01-01T01:40:54.318Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1918,44 +2242,20 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
-                  "status": "interrupted",
-                  "duration": 6377,
-                  "error": {
-                    "message": "Error: locator.count: Target page, context or browser has been closed",
-                    "stack": "Error: locator.count: Target page, context or browser has been closed\n    at AddToCart.numberOfTotalProductAddedToCart (C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\pages\\cart.ts:62:40)\n    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\4_check-cart-without-adding-product.spec.ts:11:33",
-                    "location": {
-                      "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\pages\\cart.ts",
-                      "column": 40,
-                      "line": 62
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\cart.ts:62\n\n\u001b[0m \u001b[90m 60 |\u001b[39m         }\n \u001b[90m 61 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productRow\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m\n \u001b[90m 64 |\u001b[39m         \u001b[36mif\u001b[39m (count \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 65 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m \u001b[90m// nothing in cart\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\pages\\cart.ts",
-                        "column": 40,
-                        "line": 62
-                      },
-                      "message": "Error: locator.count: Target page, context or browser has been closed\n\n\u001b[90m   at \u001b[39m..\\pages\\cart.ts:62\n\n\u001b[0m \u001b[90m 60 |\u001b[39m         }\n \u001b[90m 61 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m         \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m productRow\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m\n \u001b[90m 64 |\u001b[39m         \u001b[36mif\u001b[39m (count \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 65 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m \u001b[90m// nothing in cart\u001b[39m\u001b[0m\n\u001b[2m    at AddToCart.numberOfTotalProductAddedToCart (C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\pages\\cart.ts:62:40)\u001b[22m\n\u001b[2m    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\4_check-cart-without-adding-product.spec.ts:11:33\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 9149,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-01T01:29:47.101Z",
+                  "startTime": "2026-01-01T01:42:30.176Z",
                   "annotations": [],
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\pages\\cart.ts",
-                    "column": 40,
-                    "line": 62
-                  }
+                  "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "43f5c8f041a928d73b8c-64ab1f0be1d1587df0ca",
@@ -1978,8 +2278,22 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10630,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-01T01:44:16.937Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "43f5c8f041a928d73b8c-f79961c6fc1ef6052c23",
@@ -1992,11 +2306,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-01T01:26:56.477Z",
-    "duration": 177554.479,
-    "expected": 30,
-    "skipped": 17,
-    "unexpected": 0,
-    "flaky": 1
+    "startTime": "2026-01-01T01:39:40.629Z",
+    "duration": 286978.735,
+    "expected": 47,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
   }
 }

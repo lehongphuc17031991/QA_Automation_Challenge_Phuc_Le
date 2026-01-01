@@ -26,11 +26,12 @@ const test = base.extend<{ authPage_demoblaze: Page }>({
 
         // Verify login was successful - less common but just to be sure
         await expect(page.locator(`//a[text()="Welcome ${credentials.AdminUsername}"]`)).toBeVisible();
+        await page.reload();
 
         // Provide the logged-in page to tests
         await use(page);
 
-        // Teardown: logout        
+        // Teardown: logout         
         const logout = new LogoutPage(page);
         await logout.logout();
 
