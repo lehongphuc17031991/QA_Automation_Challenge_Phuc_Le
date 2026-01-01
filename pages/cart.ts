@@ -16,6 +16,7 @@ export class AddToCart {
 
         // If the click may navigate, coordinate it; otherwise just click.
         // Use Promise.all only if navigation is expected:
+        await addToCartButton.waitFor({ state: 'visible', timeout: 3000 });
         await addToCartButton.click()
 
 

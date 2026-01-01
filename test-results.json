@@ -127,18 +127,22 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "interrupted",
-                  "duration": 188,
+                  "status": "passed",
+                  "duration": 542,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-31T14:49:21.224Z",
+                  "startTime": "2025-12-31T16:18:34.283Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "skipped"
+              "status": "expected"
             }
           ],
           "id": "a956a2ff3216d68da6c0-bbe38c176b4165a3e1b4",
@@ -160,8 +164,26 @@
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 452,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:19:59.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "a956a2ff3216d68da6c0-95ac0ccc1343002a2639",
@@ -183,8 +205,26 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 440,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ errorMessage: \u001b[32m'Wrong password.'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:21:35.839Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "a956a2ff3216d68da6c0-996b093088b51f43bfe2",
@@ -214,8 +254,26 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4018,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 3885 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:18:34.854Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "17337b0e9ddb7b9d65de-939a2091a63d23a166ad",
@@ -237,8 +295,26 @@
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2065,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 1231 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:19:59.530Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "17337b0e9ddb7b9d65de-60c091700f516562a3f7",
@@ -260,8 +336,26 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1631,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page loading time: 1448 ms\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:21:36.312Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "17337b0e9ddb7b9d65de-e1c60dd0b163380c494e",
@@ -272,15 +366,15 @@
       ]
     },
     {
-      "title": "UI_test\\1-login-flows.spec.ts",
-      "file": "UI_test/1-login-flows.spec.ts",
+      "title": "UI_test\\1_login-flows.spec.ts",
+      "file": "UI_test/1_login-flows.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Login Edge Cases @UI @negative",
-          "file": "UI_test/1-login-flows.spec.ts",
+          "file": "UI_test/1_login-flows.spec.ts",
           "line": 27,
           "column": 6,
           "specs": [
@@ -298,12 +392,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2175,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:39.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-c1b10bd868fd63d071e6",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-9dede448199ea57cf069",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -321,12 +429,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1921,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:41.202Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-85bf935d46e728bbe4b7",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-d70a5196ecd9271f45d5",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -344,12 +466,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1990,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:43.136Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-0ca26c8dd7713a1e7e72",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-f2f31e3fce7cf8456846",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -367,12 +503,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2149,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:45.139Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-044741cad1864e41301a",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-49a0e201637ff6f46b5e",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -390,12 +540,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1612,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:47.300Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-4571ac4c650db4f7803b",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-7c60a7576228e3510cac",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -413,12 +577,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1756,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:48.924Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-4ca1d0509f8bacc35557",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-788436e17f7bb6ba1124",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -436,12 +614,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1462,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:50.693Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-903ed86936e031ff3117",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-6873cd03c5e596699b42",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -459,12 +651,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1810,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:52.167Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-5e5fb1c788595b8bfcd4",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-7d608d5538a6b70291c3",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -482,12 +688,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2938,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:53.988Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-c62d3d878bbd37d1aa29",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-af47b85c249ab5369fbf",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -505,12 +725,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2108,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:02.204Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-0b30960058591bd0fdfb",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-be9f582d8d4b4631128f",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -528,12 +762,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2012,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:04.331Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-80b545efeaf80f0d35ea",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-cfcb621ce149abddfa5b",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -551,12 +799,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1682,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:06.359Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-338f1b86af9e496d8ef7",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-49074c5d54eaec5ff4ad",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -574,12 +836,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1860,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:08.059Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-30911ec6832eeca46965",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-bd669b75590cd6503948",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -597,12 +873,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1726,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:09.934Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-0910131dec6fcac1ba2a",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-6f593b586cdd5738874e",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -620,12 +910,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2483,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:11.676Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-df88e7dad10791755397",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-c38dce4afd56eb442c42",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -643,12 +947,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1766,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:14.178Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-683a8575a8c9bf992f4e",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-d70a74783bb2cb8aac00",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -666,12 +984,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2069,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:15.959Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-c2937692f8f3a82792e4",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-09f497bbf34a6d1bbba7",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -689,12 +1021,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2194,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:18.041Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-c2f5740d482c03d86e52",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-dec13236e9d962e81ba9",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -712,12 +1058,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3240,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:38.046Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-a5fde1ac5a37de4c8732",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-59bfdb18a2ec96688c5a",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -735,12 +1095,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3109,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:41.301Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-f4fd6d32611067d3ada9",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-4eb7d8465db031b8f96a",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -758,12 +1132,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3286,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:44.426Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-68ef08c5346c0cb60c44",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-1884a5563a44fea2ff88",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -781,12 +1169,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2890,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:47.727Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-bd698eb3f6148aebd443",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-022930ff073e32edc3c7",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -804,12 +1206,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3287,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:50.634Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-63ffcd85e98937ea3b44",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-5df6b4ee8f04c0d1bb06",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -827,12 +1243,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3046,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:53.938Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-53d5ea19cf7aa4bc5474",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-bf3e9b7c7ebd2ce9b6e1",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -850,12 +1280,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3033,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:21:56.999Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-56f98d00e5320afe2275",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-d59c1bf565e4026c860b",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -873,12 +1317,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3315,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:22:00.048Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-365245bb99bb529fbc8f",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-b2e71425ba8d7db430fa",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             },
@@ -896,12 +1354,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3205,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:22:03.379Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-87fe82f105ee98e3a830",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-53a7bb332e39a7ca232a",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 29,
               "column": 13
             }
@@ -909,7 +1381,7 @@
         },
         {
           "title": "Verify @UI @positive",
-          "file": "UI_test/1-login-flows.spec.ts",
+          "file": "UI_test/1_login-flows.spec.ts",
           "line": 48,
           "column": 6,
           "specs": [
@@ -927,12 +1399,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1938,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:56.937Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-2011248b3bd45e617864",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-4f83cd98282aa631667f",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 49,
               "column": 9
             },
@@ -950,12 +1436,26 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1643,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:18:58.887Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-d84ddda471bc30fde51f",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-2cdfbf67b5f581272e69",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -973,12 +1473,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1801,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:20.248Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-2226c4819952cd948119",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-a8bb89a03b9b7d43474d",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 49,
               "column": 9
             },
@@ -996,12 +1510,26 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2000,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:20:22.064Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-da8021264c7806afb39f",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-067efb5dbfab3417d109",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 60,
               "column": 9
             },
@@ -1019,12 +1547,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2567,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:22:06.598Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-334afbefb539321e7751",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-67e9b0d78d8a58a7818a",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 49,
               "column": 9
             },
@@ -1042,12 +1584,26 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2623,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-31T16:22:09.182Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "71cbe1f148e05414be30-b6d202557fefbc2740bd",
-              "file": "UI_test/1-login-flows.spec.ts",
+              "id": "36e61abda7e16bf2a1a9-124956ae50fa22403455",
+              "file": "UI_test/1_login-flows.spec.ts",
               "line": 60,
               "column": 9
             }
@@ -1056,15 +1612,15 @@
       ]
     },
     {
-      "title": "UI_test\\2-search-product-and-add-to-cart.spec.ts",
-      "file": "UI_test/2-search-product-and-add-to-cart.spec.ts",
+      "title": "UI_test\\2_search-product-and-add-to-cart.spec.ts",
+      "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Search product and add to Cart @UI @regression @smoke @positive",
-          "file": "UI_test/2-search-product-and-add-to-cart.spec.ts",
+          "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
           "line": 14,
           "column": 6,
           "specs": [
@@ -1084,12 +1640,103 @@
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 45593,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 6607
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 3257
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 4561
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 4771
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 4010
+                        }
+                      ],
+                      "startTime": "2025-12-31T16:19:00.555Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "48127e9e354e0d5847a9-d64df425f03ad3c872cc",
-              "file": "UI_test/2-search-product-and-add-to-cart.spec.ts",
+              "id": "5326028c26b55a309b3a-7b728aa8d16b58af10f0",
+              "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
               "line": 40,
               "column": 9
             },
@@ -1109,12 +1756,103 @@
                   "expectedStatus": "passed",
                   "projectId": "firefox",
                   "projectName": "firefox",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 49493,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 6943
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 4240
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 4999
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 3669
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 4937
+                        }
+                      ],
+                      "startTime": "2025-12-31T16:20:24.092Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "48127e9e354e0d5847a9-6fa2ca0bcf7d8e2f78dc",
-              "file": "UI_test/2-search-product-and-add-to-cart.spec.ts",
+              "id": "5326028c26b55a309b3a-91ca749a5c3e9663b9b2",
+              "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
               "line": 40,
               "column": 9
             },
@@ -1134,12 +1872,103 @@
                   "expectedStatus": "passed",
                   "projectId": "webkit",
                   "projectName": "webkit",
-                  "results": [],
-                  "status": "skipped"
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 58142,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "------------- Clearing cart before test -------------\n"
+                        },
+                        {
+                          "text": "Added product: Apple to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nokia to cart\n"
+                        },
+                        {
+                          "text": "Added product: Nexus to cart\n"
+                        },
+                        {
+                          "text": "Added product: HTC to cart\n"
+                        },
+                        {
+                          "text": "Added product: Sony to cart\n"
+                        },
+                        {
+                          "text": "------------- Clearing cart after test -------------\n"
+                        },
+                        {
+                          "text": "Items in cart: 5. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 4\n"
+                        },
+                        {
+                          "text": "Items in cart: 4. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 3\n"
+                        },
+                        {
+                          "text": "Items in cart: 3. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 2\n"
+                        },
+                        {
+                          "text": "Items in cart: 2. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 1\n"
+                        },
+                        {
+                          "text": "Items in cart: 1. Deleting the first one.\n"
+                        },
+                        {
+                          "text": "Items remaining: 0\n"
+                        },
+                        {
+                          "text": "Cart is now empty.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Searching and adding product: Apple to cart",
+                          "duration": 7079
+                        },
+                        {
+                          "title": "Searching and adding product: Nokia to cart",
+                          "duration": 4827
+                        },
+                        {
+                          "title": "Searching and adding product: Nexus to cart",
+                          "duration": 6509
+                        },
+                        {
+                          "title": "Searching and adding product: HTC to cart",
+                          "duration": 4038
+                        },
+                        {
+                          "title": "Searching and adding product: Sony to cart",
+                          "duration": 6028
+                        }
+                      ],
+                      "startTime": "2025-12-31T16:22:11.830Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "id": "48127e9e354e0d5847a9-b01930f2ede1519d3106",
-              "file": "UI_test/2-search-product-and-add-to-cart.spec.ts",
+              "id": "5326028c26b55a309b3a-c2622ce5effaf64b71da",
+              "file": "UI_test/2_search-product-and-add-to-cart.spec.ts",
               "line": 40,
               "column": 9
             }
@@ -1148,8 +1977,8 @@
       ]
     },
     {
-      "title": "UI_test\\3-check-cart-without-logging.spec.ts",
-      "file": "UI_test/3-check-cart-without-logging.spec.ts",
+      "title": "UI_test\\3_check-cart-without-logging.spec.ts",
+      "file": "UI_test/3_check-cart-without-logging.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -1168,12 +1997,26 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4421,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:19:46.170Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
-          "id": "7850be3447c7e5749966-7edb229a138786feac84",
-          "file": "UI_test/3-check-cart-without-logging.spec.ts",
+          "id": "dd12b63ed1de57254d27-fed2bcd8000f714412be",
+          "file": "UI_test/3_check-cart-without-logging.spec.ts",
           "line": 5,
           "column": 5
         },
@@ -1192,12 +2035,80 @@
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4563,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m22\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m22\u001b[39m\n    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35",
+                    "location": {
+                      "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                      "column": 35,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                        "column": 35,
+                        "line": 10
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m22\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mgoToCartPage()\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[36mlet\u001b[39m numberOfTotalProducts \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m addToCart\u001b[33m.\u001b[39mnumberOfTotalProductAddedToCart()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(numberOfTotalProducts)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// cart is empty at the start\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts:10:35\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:21:13.616Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\E2E_test\\UI_test\\3_check-cart-without-logging.spec.ts",
+                    "column": 35,
+                    "line": 10
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5922,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-12-31T16:21:19.948Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox-retry1\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Dropbox\\QA_Automation_Challenge_Phuc_Le\\test-results\\UI_test-3_check-cart-witho-0bf0c-duct-UI-positive-regression-firefox-retry1\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "flaky"
             }
           ],
-          "id": "7850be3447c7e5749966-54f170efdc65f8550b70",
-          "file": "UI_test/3-check-cart-without-logging.spec.ts",
+          "id": "dd12b63ed1de57254d27-104b11e6f67780806315",
+          "file": "UI_test/3_check-cart-without-logging.spec.ts",
           "line": 5,
           "column": 5
         },
@@ -1216,20 +2127,34 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5303,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:23:10.003Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
-          "id": "7850be3447c7e5749966-ff8a2c1f696944aa6e04",
-          "file": "UI_test/3-check-cart-without-logging.spec.ts",
+          "id": "dd12b63ed1de57254d27-ba19294f4a9fe7e28a0a",
+          "file": "UI_test/3_check-cart-without-logging.spec.ts",
           "line": 5,
           "column": 5
         }
       ]
     },
     {
-      "title": "UI_test\\4-check-cart-without-adding-product.spec.ts",
-      "file": "UI_test/4-check-cart-without-adding-product.spec.ts",
+      "title": "UI_test\\4_check-cart-without-adding-product.spec.ts",
+      "file": "UI_test/4_check-cart-without-adding-product.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -1248,12 +2173,26 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:19:50.606Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
-          "id": "ee3e3e5fa1610c8c5540-8e7a43a351656a1aeb6e",
-          "file": "UI_test/4-check-cart-without-adding-product.spec.ts",
+          "id": "43f5c8f041a928d73b8c-05e44427396cab4e935d",
+          "file": "UI_test/4_check-cart-without-adding-product.spec.ts",
           "line": 5,
           "column": 5
         },
@@ -1272,12 +2211,26 @@
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:21:26.585Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
-          "id": "ee3e3e5fa1610c8c5540-18c2818a7c11df73c9b2",
-          "file": "UI_test/4-check-cart-without-adding-product.spec.ts",
+          "id": "43f5c8f041a928d73b8c-64ab1f0be1d1587df0ca",
+          "file": "UI_test/4_check-cart-without-adding-product.spec.ts",
           "line": 5,
           "column": 5
         },
@@ -1296,12 +2249,26 @@
               "expectedStatus": "passed",
               "projectId": "webkit",
               "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10143,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-31T16:23:15.325Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
             }
           ],
-          "id": "ee3e3e5fa1610c8c5540-4bf047405f7d9d94b73b",
-          "file": "UI_test/4-check-cart-without-adding-product.spec.ts",
+          "id": "43f5c8f041a928d73b8c-f79961c6fc1ef6052c23",
+          "file": "UI_test/4_check-cart-without-adding-product.spec.ts",
           "line": 5,
           "column": 5
         }
@@ -1310,11 +2277,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-31T14:49:20.093Z",
-    "duration": 1361.804,
-    "expected": 0,
-    "skipped": 48,
+    "startTime": "2025-12-31T16:18:33.169Z",
+    "duration": 292402.99600000004,
+    "expected": 47,
+    "skipped": 0,
     "unexpected": 0,
-    "flaky": 0
+    "flaky": 1
   }
 }

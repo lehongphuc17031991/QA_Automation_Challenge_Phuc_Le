@@ -16,7 +16,7 @@ export class SearchProduct {
             // Product found at 1st page
             // Use count() instead of isVisible() to avoid waiting for timeout
             if (await productLocator.count() > 0) {
-                await productLocator.first().waitFor({ state: 'visible', timeout: 5000 });
+                await productLocator.first().waitFor({ state: 'visible', timeout: 3000 });
 
                 await productLocator.first().click();
                 return true;
